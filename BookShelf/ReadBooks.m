@@ -27,12 +27,12 @@
     
    // self.view.backgroundColor = [UIColor grayColor];
     
-    
-    UIImageView * imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"green.png"]];
-    imageView.frame = CGRectMake(0, 0, 320,480 - 44);
-    
-    [self.view addSubview:imageView];
-    [imageView release];
+  //yu mark
+//    UIImageView * imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"green.png"]];
+//    imageView.frame = CGRectMake(0, 0, 320,480 - 44);
+//    
+//    [self.view addSubview:imageView];
+//    [imageView release];
     
     
     //自定义工具栏
@@ -45,7 +45,8 @@
     textView.text = self.str;
     
     textView.font = [UIFont italicSystemFontOfSize:20];
-    textView.inputAccessoryView = imageView;
+    //yu mark
+ //   textView.inputAccessoryView = imageView;
     
     textView.textColor = [UIColor blackColor];
     
